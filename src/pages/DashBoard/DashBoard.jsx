@@ -12,6 +12,7 @@ import UploadStatus from '../../components/Statuses/UploadStatus/UploadStatus';
 import dataTableDashBoard from '../../../database/dashboard/dataTableDashboard.json';
 import FilterBar from '../../components/Dashboard/Filter/FilterBar';
 import ViewDropdown from '../../components/Dashboard/ViewDropdown/ViewDropdown';
+import { useNavigate } from 'react-router-dom';
 
 const DashBoard = () => {
     //test
@@ -27,6 +28,7 @@ const DashBoard = () => {
         Actions: true,
     });
     const itemsPerPage = 5;
+    const navigate = useNavigate();
 
     const showModal = () => {
         setIsModalOpen(true);
@@ -206,13 +208,17 @@ const DashBoard = () => {
                                         </td>
                                         {selectedColumns.Name && (
                                             <td className="px-4 py-2">
-                                                <a
-                                                    href="/review-page"
+                                                <button
+                                                    onClick={() => {
+                                                        navigate(
+                                                            '/review-page'
+                                                        );
+                                                    }}
                                                     className="hover:underline text-[15px]"
                                                 >
                                                     {item.name}{' '}
                                                     <SearchOutlined className="text-sm text-gray-400" />
-                                                </a>
+                                                </button>
                                             </td>
                                         )}
                                         {selectedColumns.Status && (
