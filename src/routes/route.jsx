@@ -6,7 +6,7 @@ import Login from '../pages/Login/Login';
 import PasswordReset from '../pages/PasswordReset/PasswordReset';
 import EmailReset from '../pages/EmailReset/EmailReset';
 import Check from '../pages/Check/Check';
-import ReviewPage from '../pages/ReviewPage/Review';
+import ReviewPage from '../pages/ReviewPage/ReviewPage';
 
 const Router = () => {
     return (
