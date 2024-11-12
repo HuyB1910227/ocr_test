@@ -1,0 +1,17 @@
+.button {
+  @apply bg-white border rounded-lg transition duration-200; 
+}
+
+.button:hover {
+  @apply bg-gray-200;
+} 
+
+.custom-button-orange {
+  background-color: #FFA500; 
+  border-color: #FFA500;
+}
+
+.custom-button-orange:hover {
+  background-color: #FF8C00 !important; 
+  border-color: #FF8C00 !important; 
+}

@@ -1,0 +1,8 @@
+/* SidebarStyle.css */
+:where(.css-dev-only-do-not-override-apn68).ant-menu-light
+    .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-apn68).ant-menu-light
+    > .ant-menu
+    .ant-menu-item-selected {
+    background-color: #fb923c3b;
+}
