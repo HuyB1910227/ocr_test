@@ -4,7 +4,7 @@ import PDFViewer from '../../components/Review/PdfView';
 import TableView from '../../components/Review/TableView';
 import './ReviewStyle.css';
 
-const Review = () => {
+const ReviewPage = () => {
     return (
         <div className="review-page min-h-[100vh] px-14 py-8">
             <div className="flex gap-4">
@@ -25,4 +25,4 @@ const Review = () => {
     );
 };
 
-export default Review;
+export default ReviewPage;

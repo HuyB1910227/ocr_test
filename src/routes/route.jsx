@@ -6,7 +6,7 @@ import Login from '../pages/Login/Login';
 import PasswordReset from '../pages/PasswordReset/PasswordReset';
 import EmailReset from '../pages/EmailReset/EmailReset';
 import Check from '../pages/Check/Check';
-import Review from '../pages/Review/Review';
+import ReviewPage from '../pages/ReviewPage/Review';
 
 const Router = () => {
     return (
@@ -31,7 +31,7 @@ const Router = () => {
                 />
                 <Route
                     path="/review-page"
-                    element={<Layout Component={Review}></Layout>}
+                    element={<Layout Component={ReviewPage}></Layout>}
                 />
             </Routes>
         </BrowserRouter>

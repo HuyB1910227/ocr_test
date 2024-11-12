@@ -207,7 +207,7 @@ const DashBoard = () => {
                                         {selectedColumns.Name && (
                                             <td className="px-4 py-2">
                                                 <a
-                                                    href="/review"
+                                                    href="/review-page"
                                                     className="hover:underline text-[15px]"
                                                 >
                                                     {item.name}{' '}
