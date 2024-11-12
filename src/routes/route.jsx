@@ -30,7 +30,7 @@ const Router = () => {
                     element={<PasswordReset></PasswordReset>}
                 />
                 <Route
-                    path="/review"
+                    path="/review-page"
                     element={<Layout Component={Review}></Layout>}
                 />
             </Routes>
